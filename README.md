@@ -1,6 +1,6 @@
 # Book Show
 
-This project is live on [Link](https://github.com/facebook/create-react-app).
+This project is live on [Link](https://bookshowbizz.netlify.app/).
 
 ## Available Scripts
 
