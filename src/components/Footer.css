@@ -1,0 +1,22 @@
+span{
+    color: red;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    /* position: absolute;
+    bottom: 0;
+    width: 644px;
+    margin: 0 auto;
+    height: auto;
+    left: 700px; */
+    
+}
+
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 12px;  
+    }
+}

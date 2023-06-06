@@ -1,0 +1,85 @@
+body{
+  background-image: url('https://img.freepik.com/free-vector/gradient-neon-light-background_23-2149332917.jpg?w=1480&t=st=1686067366~exp=1686067966~hmac=5350fe9ecc29fd25a556451f49f4a3c8c5516b551c80d7daa333cebe49ed99c6');
+  background-size: cover;
+  color: aliceblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+  text-align: center;
+}
+.search{
+  display: flex;
+  justify-content: center;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.input{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width:500px ;
+  padding: 10px;
+}
+
+button{
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color:rgb(234, 114, 40);
+  border: 1px solid white;
+  color:white;
+  padding: 5px 30px;
+}
+.submit{
+  background-color:rgb(22, 77, 229);
+  color:white;
+}
+button:hover{
+  background-color:rgb(22, 77, 229);
+  color:white;
+}
+.submit:hover{
+  background-color: rgb(234, 114, 40);
+  color: white;
+}
+.card{
+  display: flex;
+  justify-content: center;
+}
+.displayImg{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: auto;
+  
+}
+.displayP{
+  display: flex;
+  width:250px;
+  justify-content: center;
+}
+.book{
+  margin-left:700px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  button{
+    font-size: 10px;
+    padding: 2px 5px;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
